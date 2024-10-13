@@ -3,6 +3,18 @@ abstract class Failure {
   const Failure({required this.errorMessage});
 }
 
-class ServerFailure extends Failure {
-  ServerFailure({required super.errorMessage});
+class ReadFailure extends Failure {
+  ReadFailure({required super.errorMessage});
+}
+
+class WriteFailure extends Failure {
+  WriteFailure({required super.errorMessage});
+}
+
+class UpdateFailure extends Failure {
+  UpdateFailure({required super.errorMessage});
+}
+
+class DeleteFailure extends Failure {
+  DeleteFailure({required super.errorMessage});
 }
