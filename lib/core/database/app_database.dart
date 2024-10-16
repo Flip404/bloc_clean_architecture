@@ -1,5 +1,5 @@
 import 'package:bloc_clean_architecture/core/constants/constants.dart';
-import 'package:bloc_clean_architecture/features/home/data/models/note_model.dart';
+import 'package:bloc_clean_architecture/features/note/data/models/note_model.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
 
